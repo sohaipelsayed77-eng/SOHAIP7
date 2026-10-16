@@ -1,0 +1,6 @@
+{
+  "name": "Media Buyer Client Onboarding",
+  "description": "Comprehensive client intake, advertising readiness audit, and strategic brief generator for freelance media buyers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
