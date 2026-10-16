@@ -77,10 +77,10 @@ export const StepWelcome: React.FC = () => {
 
           <div className="flex flex-wrap items-center gap-4">
             <button
-              onClick={() => setCurrentStep(1)}
+              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdSmEdwa6hxontiMScP7Ob7p1MPkQppd1eVQt-ggi4ATpwOrw/viewform', '_blank', 'noopener,noreferrer')}
               className="inline-flex items-center gap-3 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-lg shadow-blue-600/30 hover:shadow-blue-500/40 transition-all cursor-pointer group"
             >
-              <span>{hasDraft ? (lang === 'ar' ? 'متابعة ملء الاستبيان' : 'Resume Intake Form') : (lang === 'ar' ? 'بدء ملء الاستبيان الآن' : 'Start Intake Form')}</span>
+              <span>{lang === 'ar' ? 'إرسال البيانات وحفظها' : 'Submit & save responses'}</span>
               {isRtl ? (
                 <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
               ) : (
